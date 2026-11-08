@@ -58,8 +58,9 @@ Requer Python 3.12.
 
 ```bash
 uv sync
-uv pip install qiskit qiskit-aer qiskit-ibm-runtime networkx scipy pylatexenc
 ```
+
+Para abrir os notebooks na IDE, escolha o kernel do `.venv` do projeto.
 
 Os notebooks rodam no simulador sem configuração extra. Para executar na IBM, salve seu token uma vez (pegue em [quantum.ibm.com](https://quantum.ibm.com)):
 

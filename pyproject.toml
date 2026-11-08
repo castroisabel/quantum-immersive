@@ -1,12 +1,24 @@
 [project]
 name = "qli"
 version = "0.1.0"
-description = "Add your description here"
+description = "Alocação de poços no semiárido de Pernambuco com QAOA (Quantum Immersive, grupo QLI)"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "matplotlib>=3.11.1",
+    "networkx>=3.6.1",
+    "numpy>=2.5.1",
     "pandas>=3.0.5",
+    "pylatexenc>=2.11",
+    "qiskit>=2.5.1",
+    "qiskit-aer>=0.17.2",
+    "qiskit-ibm-runtime>=0.48.0",
     "requests>=2.34.2",
     "scikit-learn>=1.9.0",
+    "scipy>=1.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
 ]
