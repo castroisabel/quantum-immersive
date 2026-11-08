@@ -1,0 +1,6 @@
+produto,tipo,area_ha_pe_2023,valor_milreais_pe_2023,necessidade_hidrica_mm_min,necessidade_hidrica_mm_max,kc_medio,regime_tipico_semiarido,fonte_necessidade
+Cana-de-açúcar,temporária,260822.0,2649098.0,1500,2500,1.25,sequeiro (Zona da Mata),FAO-56 (referência)
+Milho (em grão),temporária,184857.0,76089.0,500,800,1.2,sequeiro,FAO-56 (referência)
+Feijão (em grão),temporária,179315.0,238998.0,300,500,1.15,sequeiro,FAO-56 (referência)
+Mandioca,temporária,50538.0,547299.0,500,700,1.0,sequeiro,FAO-56 (referência)
+Banana (cacho),permanente,45455.0,899155.0,1200,2200,1.1,irrigado,FAO-56 (referência)

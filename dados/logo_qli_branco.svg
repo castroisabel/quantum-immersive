@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12a17e"/>
+      <stop offset="1" stop-color="#2f6fd0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="240" fill="#ffffff"/>
+
+  <!-- gota d'água com micro-grafo (poço central + vizinhos) -->
+  <g transform="translate(120 118)">
+    <path d="M0,-78 C 38,-26 52,-14 52,22 A 52,52 0 1,1 -52,22 C -52,-14 -38,-26 0,-78 Z"
+          fill="url(#g1)"/>
+    <!-- grafo interno, em branco -->
+    <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.95">
+      <line x1="0" y1="18" x2="-24" y2="2"/>
+      <line x1="0" y1="18" x2="26" y2="6"/>
+      <line x1="0" y1="18" x2="-2" y2="46"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="-24" cy="2"  r="5"/>
+      <circle cx="26"  cy="6"  r="5"/>
+      <circle cx="-2"  cy="46" r="5"/>
+      <circle cx="0"   cy="18" r="9.5"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="228" y="126" font-size="78" font-weight="800" letter-spacing="2" fill="url(#g1)">QLI</text>
+  <text x="230" y="160" font-size="15.5" font-weight="600" letter-spacing="3.5" fill="#5b6b73">QUANTUM LEARNING FOR IMPACT</text>
+</svg>
